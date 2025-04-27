@@ -2,7 +2,15 @@
 
 
 
-This project develops a distributed machine learning system for predicting wine quality using Apache Spark ML, deployed across AWS EC2 instances. It features both training and prediction modules, containerized with Docker for streamlined deployment.
+This project presents a distributed machine learning system designed to predict wine quality using Apache Spark MLlib, deployed across multiple AWS EC2 instances. It encompasses both training and prediction workflows, all containerized with Docker for seamless and scalable deployment.
+
+The primary goal of this assignment is to master the development of parallelized machine learning (ML) applications on the Amazon AWS cloud platform. Throughout this project, you will learn to:
+
+Build and train ML models in parallel using Apache Spark on multiple EC2 instances.
+
+Leverage Spark MLlib for model training, validation, and evaluation in a cloud environment.
+
+Containerize ML applications using Docker to streamline model deployment across different infrastructures.
 
 
 
