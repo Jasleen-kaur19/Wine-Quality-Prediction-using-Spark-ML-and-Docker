@@ -108,9 +108,10 @@ start-slave.sh spark://<Master-Private-IP>:7077
 ```
 SPARK Setup Screenshot:
 ![Screenshot 2025-04-23 at 10 56 44 AM](https://github.com/user-attachments/assets/ecbea09d-5b02-4cba-ad5b-859941136616)
-![Screenshot 2025-04-23 at 10 56 34 AM](https://github.com/user-attachments/assets/17ba368a-59f0-4ee8-930a-a3b441137b93)
-![Screenshot 2025-04-23 at 10 56 21 AM](https://github.com/user-attachments/assets/70d7596c-c759-4c7e-b731-58d397697e3f)
 ![Screenshot 2025-04-23 at 10 56 10 AM](https://github.com/user-attachments/assets/31609d19-1c95-42bd-832b-a3b677cbe558)
+<img width="1068" alt="Screenshot 2025-04-23 at 10 56 34 AM" src="https://github.com/user-attachments/assets/58aa2b45-15d7-4c46-ad37-9eac5996e013" />
+![Screenshot 2025-04-23 at 10 56 21 AM](https://github.com/user-attachments/assets/eba9cbe2-27b6-479d-970c-ce68234cbbea)
+
 
 
 Cluster Running Screenshot:
