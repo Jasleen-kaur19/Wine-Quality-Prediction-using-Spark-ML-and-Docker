@@ -1,8 +1,10 @@
 # Wine-Quality-Prediction-using-Spark-ML-and-Docker
 
-## Wine Quality Prediction using Spark ML and Docker
 
-This project implements a distributed machine learning system for wine quality prediction using Apache Spark ML on AWS EC2 instances. It includes training and prediction components, and is containerized with Docker for easy deployment.
+
+This project develops a distributed machine learning system for predicting wine quality using Apache Spark ML, deployed across AWS EC2 instances. It features both training and prediction modules, containerized with Docker for streamlined deployment.
+
+
 
 ---
 
