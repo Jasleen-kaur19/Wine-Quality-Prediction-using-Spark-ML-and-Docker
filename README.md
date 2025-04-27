@@ -18,17 +18,20 @@ You can pull the Docker image using:
 docker pull jasleen4499/wine-predictor:latest
 ```
 
-🚀 Project Architecture
+##  🚀 Project Architecture
 
 Step	Details
-1	Launch 4 EC2 instances (1 Master + 3 Workers)
-2	Install and Configure Java, Hadoop, and Spark
-3	SSH Key setup for password-less communication
-4	Start Spark Master and Worker nodes
-5	Train the model on Spark cluster
-6	Build Docker image for prediction
-7	Push Docker image to Dockerhub
-8	Run the model prediction inside Docker container
+1)	Launch 4 EC2 instances (1 Master + 3 Workers)
+2)	Install and Configure Java, Hadoop, and Spark
+3)	SSH Key setup for password-less communication
+4)	Start Spark Master and Worker nodes
+5)	Train the model on Spark cluster
+6)	Build Docker image for prediction
+7)	Push Docker image to Dockerhub
+8)	Run the model prediction inside Docker container
+
+## Step Implementation:
+
 ☁️ Launch EC2 Instances
 Instance Type: t2.large
 
