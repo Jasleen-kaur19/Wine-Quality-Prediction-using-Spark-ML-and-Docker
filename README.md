@@ -33,7 +33,7 @@ Total Instances: 4 (1 Master + 3 Workers)
 
 VPC: All instances should be in the same VPC and subnet.
 
-Screenshot: (Add your screenshot here)
+Screenshot: ![Screenshot 2025-04-24 at 2 51 03 PM](https://github.com/user-attachments/assets/30e60a6a-8476-437c-8fd8-9779571f5e70)
 
 🛠️ Environment Setup
 SSH into Each Instance
@@ -104,9 +104,17 @@ $SPARK_HOME/sbin/start-slaves.sh
 Workers:
 ```bash
 start-slave.sh spark://<Master-Private-IP>:7077
-Cluster Running Screenshot:
-(Add your screenshot here)
 ```
+SPARK Setup Screenshot:
+![Screenshot 2025-04-23 at 10 56 44 AM](https://github.com/user-attachments/assets/ecbea09d-5b02-4cba-ad5b-859941136616)
+![Screenshot 2025-04-23 at 10 56 34 AM](https://github.com/user-attachments/assets/17ba368a-59f0-4ee8-930a-a3b441137b93)
+![Screenshot 2025-04-23 at 10 56 21 AM](https://github.com/user-attachments/assets/70d7596c-c759-4c7e-b731-58d397697e3f)
+![Screenshot 2025-04-23 at 10 56 10 AM](https://github.com/user-attachments/assets/31609d19-1c95-42bd-832b-a3b677cbe558)
+
+
+Cluster Running Screenshot:
+![Screenshot 2025-04-23 at 11 51 19 AM](https://github.com/user-attachments/assets/fe6bd633-c5c9-4e45-96e5-a3aa64fb81d5)
+
 📂 Upload Dataset
 Upload datasets to all nodes:
 ```bash
@@ -162,3 +170,37 @@ label	prediction
 5.0	5.0
 6.0	6.0
 5.0	5.0
+
+
+
+
+
+
+
+
+![Screenshot 2025-04-24 at 2 54 09 PM](https://github.com/user-attachments/assets/64619e9a-fbc1-48ef-b8ed-6e6f0a27a1e1)
+
+![Screenshot 2025-04-23 at 12 42 02 PM](https://github.com/user-attachments/assets/30c8e575-7f0d-4976-9ebd-1ba04e92fe31)
+![Screenshot 2025-04-23 at 12 33 52 PM](https://github.com/user-attachments/assets/1c5f81f5-6810-4ebe-b7be-d970da0423c7)
+
+![Screenshot 2025-04-23 at 2 31 37 PM](https://github.com/user-attachments/assets/18094ab8-3909-4c68-b1ed-9925f1fccd2f)
+![Screenshot 2025-04-23 at 2 18 01 PM](https://github.com/user-attachments/assets/05fe4e65-955c-4dcf-a80f-1341700d4c3c)
+![Screenshot 2025-04-23 at 2 17 52 PM](https://github.com/user-attachments/assets/ebf18fa6-e476-42c8-8c7a-88394670e188)
+![Screenshot 2025-04-23 at 2 17 43 PM](https://github.com/user-attachments/assets/419fec2b-10d1-4a11-a1b1-7d6daf641186)
+![Screenshot 2025-04-23 at 1 29 20 PM](https://github.com/user-attachments/assets/7a17599f-0ff7-4d89-8936-34ac041600e2)
+![Screenshot 2025-04-23 at 1 26 59 PM](https://github.com/user-attachments/assets/0924c826-08a2-4130-a35c-781defabbfaa)
+![Screenshot 2025-04-23 at 1 26 44 PM](https://github.com/user-attachments/assets/217b7b32-80ca-496b-9a8f-ee7c569186cf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
