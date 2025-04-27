@@ -10,6 +10,7 @@ This project implements a distributed machine learning system for wine quality p
 
 **Dockerhub Repo**: [jasleen4499/wine-predictor](https://hub.docker.com/r/jasleen4499/wine-predictor)
 
+
 You can pull the Docker image using:
 ```bash
 docker pull jasleen4499/wine-predictor:latest
@@ -128,68 +129,57 @@ spark-submit --master spark://<Master-Private-IP>:7077 wine-train.py
 ```
 Training Result:
 
-F1 Score: 0.5610
+F1 Score: 0.578
 
-Accuracy: 57.5%
+Accuracy: 0.601
 
-Screenshot:
-(Add your screenshot here)
+Screenshot: ![Screenshot 2025-04-23 at 12 42 02 PM](https://github.com/user-attachments/assets/30c8e575-7f0d-4976-9ebd-1ba04e92fe31)
+
+
+🧠 Testing the Model
+Submit Spark job:
+```bash
+spark-submit --master spark://<Master-Private-IP>:7077 wine_test.py
+```
+Testing Result:
+
+F1 Score: 0.561
+
+Accuracy: 0.575
+
+Screenshot: ![Screenshot 2025-04-23 at 1 26 44 PM](https://github.com/user-attachments/assets/217b7b32-80ca-496b-9a8f-ee7c569186cf)
 
 🐳 Build Docker Image
 Build the Docker image:
 ```bash
 docker build -t wine-predictor .
 ```
-Screenshot:
-(Add your screenshot here)
+Screenshot:![Screenshot 2025-04-23 at 2 17 43 PM](https://github.com/user-attachments/assets/419fec2b-10d1-4a11-a1b1-7d6daf641186)
+
 
 Run the Docker container:
 ```bash
 docker run wine-predictor
 ```
 
-Prediction Output:
-(Add your output screenshot here)
+Prediction Output: ![Screenshot 2025-04-23 at 2 18 01 PM](https://github.com/user-attachments/assets/05fe4e65-955c-4dcf-a80f-1341700d4c3c)
 
 Push Docker image to Dockerhub:
 ```bash
 docker push jasleen4499/wine-predictor:latest
 ```
-DockerHub Push Screenshot:
-(Add your DockerHub push screenshot here)
-
-📈 Results
-
-Metric	Value
-F1 Score	0.561
-Accuracy	57.5%
-Example Output:
-
-label	prediction
-5.0	5.0
-5.0	5.0
-6.0	6.0
-5.0	5.0
-
-
-
-
-
-
-
-
-![Screenshot 2025-04-24 at 2 54 09 PM](https://github.com/user-attachments/assets/64619e9a-fbc1-48ef-b8ed-6e6f0a27a1e1)
-
-![Screenshot 2025-04-23 at 12 42 02 PM](https://github.com/user-attachments/assets/30c8e575-7f0d-4976-9ebd-1ba04e92fe31)
-![Screenshot 2025-04-23 at 12 33 52 PM](https://github.com/user-attachments/assets/1c5f81f5-6810-4ebe-b7be-d970da0423c7)
-
+DockerHub Push Screenshot: 
 ![Screenshot 2025-04-23 at 2 31 37 PM](https://github.com/user-attachments/assets/18094ab8-3909-4c68-b1ed-9925f1fccd2f)
-![Screenshot 2025-04-23 at 2 18 01 PM](https://github.com/user-attachments/assets/05fe4e65-955c-4dcf-a80f-1341700d4c3c)
-![Screenshot 2025-04-23 at 2 17 52 PM](https://github.com/user-attachments/assets/ebf18fa6-e476-42c8-8c7a-88394670e188)
-![Screenshot 2025-04-23 at 2 17 43 PM](https://github.com/user-attachments/assets/419fec2b-10d1-4a11-a1b1-7d6daf641186)
-![Screenshot 2025-04-23 at 1 29 20 PM](https://github.com/user-attachments/assets/7a17599f-0ff7-4d89-8936-34ac041600e2)
-![Screenshot 2025-04-23 at 1 26 59 PM](https://github.com/user-attachments/assets/0924c826-08a2-4130-a35c-781defabbfaa)
-![Screenshot 2025-04-23 at 1 26 44 PM](https://github.com/user-attachments/assets/217b7b32-80ca-496b-9a8f-ee7c569186cf)
+
+
+
+
+
+
+
+
+
+
 
 
 
