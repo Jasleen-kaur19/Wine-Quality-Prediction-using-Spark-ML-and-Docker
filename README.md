@@ -136,7 +136,7 @@ Upload datasets to all nodes:
 scp -i "your-key.pem" TrainingDataset.csv ec2-user@<instance-public-ip>:~/
 scp -i "your-key.pem" ValidationDataset.csv ec2-user@<instance-public-ip>:~/
 ```
-🧠 Train the Model
+🧠 Train the Model (Execution on Spark Cluster)
 Submit Spark job:
 ```bash
 spark-submit --master spark://<Master-Private-IP>:7077 wine-train.py
@@ -171,7 +171,7 @@ docker build -t wine-predictor .
 Screenshot:![Screenshot 2025-04-23 at 2 17 43 PM](https://github.com/user-attachments/assets/419fec2b-10d1-4a11-a1b1-7d6daf641186)
 
 
-Run the Docker container:
+Run the Docker container(Execution on Docker):
 ```bash
 docker run wine-predictor
 ```
