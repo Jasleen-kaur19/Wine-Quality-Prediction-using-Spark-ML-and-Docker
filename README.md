@@ -150,7 +150,7 @@ Accuracy: 0.601
 Screenshot: ![Screenshot 2025-04-23 at 12 42 02 PM](https://github.com/user-attachments/assets/30c8e575-7f0d-4976-9ebd-1ba04e92fe31)
 
 
-🧠 Testing the Model
+🧠 Testing the Model (Execution on Spark Cluster)
 Submit Spark job:
 ```bash
 spark-submit --master spark://<Master-Private-IP>:7077 wine_test.py
