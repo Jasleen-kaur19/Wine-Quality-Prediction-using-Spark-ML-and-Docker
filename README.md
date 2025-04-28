@@ -170,6 +170,19 @@ docker build -t wine-predictor .
 ```
 Screenshot:![Screenshot 2025-04-23 at 2 17 43 PM](https://github.com/user-attachments/assets/419fec2b-10d1-4a11-a1b1-7d6daf641186)
 
+Push Docker image to Dockerhub:
+```bash
+docker push jasleen4499/wine-predictor:latest
+```
+DockerHub Push Screenshot: 
+![Screenshot 2025-04-23 at 2 31 37 PM](https://github.com/user-attachments/assets/18094ab8-3909-4c68-b1ed-9925f1fccd2f)
+
+Pull Docker image :
+
+Pull the Docker image using:
+```bash
+docker pull jasleen4499/wine-predictor:latest
+```
 
 Run the Docker container(Execution on Docker):
 ```bash
@@ -178,12 +191,6 @@ docker run wine-predictor
 
 Prediction Output: ![Screenshot 2025-04-23 at 2 18 01 PM](https://github.com/user-attachments/assets/05fe4e65-955c-4dcf-a80f-1341700d4c3c)
 
-Push Docker image to Dockerhub:
-```bash
-docker push jasleen4499/wine-predictor:latest
-```
-DockerHub Push Screenshot: 
-![Screenshot 2025-04-23 at 2 31 37 PM](https://github.com/user-attachments/assets/18094ab8-3909-4c68-b1ed-9925f1fccd2f)
 
 
 
