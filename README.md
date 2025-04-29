@@ -36,7 +36,8 @@ Step	Details
 5)	Train the model on Spark cluster
 6)	Build Docker image for prediction
 7)	Push Docker image to Dockerhub
-8)	Run the model prediction inside Docker container
+8)	Pull Docker image from Dockerhub
+9)	Run the model prediction inside Docker container
 
 ## Step Implementation:
 
